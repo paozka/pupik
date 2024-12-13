@@ -1,0 +1,92 @@
+.body {
+    background-color: rgb(188, 235, 222);
+}
+.title {
+    padding: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.title span {
+    color: #118f7a;
+    font-size: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img {
+    max-width: 400px;
+}
+
+.main-info {
+    max-width: 500px;
+    color: darkcyan;
+}
+
+.main-info ul {
+    padding-left: 20px;
+
+}
+
+.main-info a {
+    font-size: 20px;
+    color: #279168;
+    text-decoration: none
+}
+
+.form {
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;flex-direction: column;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(15, 153, 84);
+}
+
+.form input {
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(181, 238, 211);
+}
+
+.form button {
+    background-color: #30c58c;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: #12550f 3px solid;
+    color: rgb(255, 255, 255);
+}
+
+.form button:hover {
+    background-color: rgb(23, 163, 156);
+    color: black;
+    border: #2a572a 3px solid;
+}
+.contact {
+    text-align: center;
+    font-size: 35px;
+    color: #177953;
+}
+
+.mail {
+    font-size: 25px;
+    color: #177953;
+}
+.gmail{
+    font-size: 25px;
+    color: #177953;
+}
+.number{
+    font-size: 25px;
+    color: #177953;
+}
